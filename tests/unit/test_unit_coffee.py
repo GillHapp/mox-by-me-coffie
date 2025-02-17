@@ -68,3 +68,4 @@ def test_withdraw_from_multiple_funders(coffee_funded):
     assert starting_fund_me_balance + starting_owner_balance == boa.env.get_balance(
         coffee_funded.OWNER()
     )
+
